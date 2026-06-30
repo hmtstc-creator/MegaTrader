@@ -1,0 +1,12 @@
+[Unit]
+Description=MegaTrader Webhook Service
+After=network.target
+
+[Service]
+User=deploy
+WorkingDirectory=/opt/megatrader
+ExecStart=/opt/megatrader/venv/bin/uvicorn webhook_server:app --host 0.0.0.0 --port 9000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

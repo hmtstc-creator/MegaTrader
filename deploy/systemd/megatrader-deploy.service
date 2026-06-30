@@ -1,0 +1,7 @@
+[Unit]
+Description=MegaTrader Deploy Service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/megatrader/deploy.sh
+User=root

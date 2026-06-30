@@ -1,0 +1,1 @@
+print("MegaTrader post deploy check")

@@ -1,0 +1,15 @@
+[Unit]
+Description=MegaTrader Backend
+After=network.target
+
+[Service]
+User=deploy
+WorkingDirectory=/var/www/MegaTrader/backend
+
+ExecStart=/var/www/MegaTrader/backend/venv/bin/python main.py
+
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
