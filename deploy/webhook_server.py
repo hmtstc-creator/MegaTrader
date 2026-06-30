@@ -14,6 +14,7 @@ def health():
 def webhook():
     result = subprocess.run(
         [
+            "sudo",
             "systemctl",
             "start",
             "megatrader-deploy.service"
