@@ -30,3 +30,6 @@ megatrader-backend.service
 Nginx
 ↓
 Canlı Sistem
+
+
+test deploy
