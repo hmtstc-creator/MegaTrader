@@ -3,5 +3,8 @@ Description=MegaTrader Deploy Service
 
 [Service]
 Type=oneshot
-ExecStart=/opt/megatrader/deploy.sh
 User=root
+ExecStart=/var/www/MegaTrader/deploy/deploy.sh
+
+[Install]
+WantedBy=multi-user.target
