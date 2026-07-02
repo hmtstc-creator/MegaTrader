@@ -1,35 +1,28 @@
-# Sen MegaTrader Projesi
+# Sen MegaTrader Pro
 
-## Genel Bakış
-Sen MegaTrader, modern finans piyasalarında yüksek performanslı alım satım stratejileri geliştirmek ve uygulamak için tasarlanmış kapsamlı bir platformdur. Kullanıcı dostu arayüzü ve güçlü arka uç altyapısı ile yatırımcılara ve geliştiricilere piyasa verilerini analiz etme, otomatik stratejiler oluşturma ve gerçek zamanlı olarak işlem yapma imkanı sunar.
+Gelişmiş algoritmik ticaret stratejileri ve piyasa analiz araçları sunan, yüksek performanslı bir ticaret platformu.
+
+## Proje Vizyonu
+
+Yatırımcıların finansal piyasalardaki potansiyellerini maksimize etmelerini sağlayacak, güvenilir, hızlı ve kullanıcı dostu bir ortam sunmak.
 
 ## Özellikler
-*   **Gerçek Zamanlı Veri Entegrasyonu:** Çeşitli finansal veri sağlayıcılarından anlık ve geçmiş piyasa verileri.
-*   **Strateji Geliştirme Ortamı:** Python tabanlı, esnek ve güçlü strateji geliştirme API'si.
-*   **Geriye Dönük Test (Backtesting):** Geliştirilen stratejilerin geçmiş verilere göre performansını analiz etme.
-*   **İleriye Dönük Test (Paper Trading):** Gerçek piyasa koşullarında sanal fonlarla strateji test etme.
-*   **Otomatik İşlem Yürütme:** Geliştirilen stratejilerin canlı piyasada otomatik olarak çalıştırılması.
-*   **Risk Yönetimi Modülleri:** Özelleştirilebilir risk limitleri ve pozisyon yönetimi araçları.
-*   **Kullanıcı Arayüzü:** Stratejileri yönetmek, performansı izlemek ve ayarları yapılandırmak için sezgisel web arayüzü.
+
+- Gerçek zamanlı piyasa verileri akışı
+- Gelişmiş grafik araçları
+- Özelleştirilebilir ticaret stratejileri
+- Otomatik ticaret (algo-trading) yetenekleri
+- Risk yönetimi modülleri
+- Çoklu borsa entegrasyonu
 
 ## Kurulum
 
-### Ön Gereksinimler
-*   Python 3.8 veya üzeri
-*   pip paket yöneticisi
-
-### Adımlar
-1.  Proje deposunu klonlayın.
-2.  Klonlanan dizine geçin.
-3.  Gerekli Python paketlerini yükleyin: `pip install -r requirements.txt`.
-4.  Veritabanı ayarlamalarını yapın ve ilk geçişleri uygulayın.
-5.  Uygulamayı başlatın.
-
-## Kullanım
-Detaylı kullanım bilgileri ve strateji geliştirme rehberleri için `docs/` klasörüne bakınız.
+Projenin kurulum adımları ve bağımlılıkları yakında eklenecektir.
 
 ## Katkıda Bulunma
-Katkıda bulunmak isteyen geliştiriciler için `CONTRIBUTING.md` dosyasını inceleyiniz.
 
-## Lisans
-Bu proje MIT Lisansı altında yayımlanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakınız.
+Projemize katkıda bulunmak isteyenler için rehber yakında yayınlanacaktır.
+
+## İletişim
+
+Sorularınız ve geri bildirimleriniz için bizimle iletişime geçin.
