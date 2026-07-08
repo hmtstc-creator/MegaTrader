@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>KARABASAN</title>
 
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/dashboard-funnel.css" />
-    <link rel="stylesheet" href="./css/dashboard-live-trade.css" />
-  </head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/dashboard-funnel.css">
+    <link rel="stylesheet" href="./css/dashboard-live-trade.css">
+</head>
 
-  <body>
+<body>
+
     <div id="root"></div>
-  </body>
-  
-    <!-- Core data -->
+
+    <!-- ========================= -->
+    <!-- Core -->
+    <!-- ========================= -->
+
     <script src="./js/config.js"></script>
     <script src="./js/data.js"></script>
-
-    <!-- UI helpers -->
     <script src="./js/ui.js"></script>
 
-    <!-- Page registry base -->
+    <!-- ========================= -->
+    <!-- Base -->
+    <!-- ========================= -->
+
     <script src="./js/pages/base.js"></script>
 
-    <!-- Modular pages -->
+    <!-- ========================= -->
+    <!-- Components -->
+    <!-- ========================= -->
+
     <script src="./js/components/liveTradeNetwork.js"></script>
-    <script src="./js/pages/settings.js"></script>
+
+    <!-- ========================= -->
+    <!-- Pages -->
+    <!-- ========================= -->
+
+    <script src="./js/pages/dashboard.js"></script>
     <script src="./js/pages/coinFilter.js"></script>
     <script src="./js/pages/ruleEditor.js"></script>
-    <script src="./js/pages/users.js"></script>
     <script src="./js/pages/strategies.js"></script>
-    <script src="./js/pages/dashboard.js"></script>
+    <script src="./js/pages/users.js"></script>
+    <script src="./js/pages/settings.js"></script>
     <script src="./js/pages/admin.js"></script>
 
-    <!-- App modules -->
+    <!-- ========================= -->
+    <!-- App -->
+    <!-- ========================= -->
+
     <script src="./js/app/state.js"></script>
     <script src="./js/app/api.js"></script>
     <script src="./js/app/auth.js"></script>
@@ -45,16 +62,18 @@
     <script src="./js/app/rules.js"></script>
     <script src="./js/app/users.js"></script>
     <script src="./js/app/audit.js"></script>
-
     <script src="./js/app/realApproval.js"></script>
     <script src="./js/app/realTrade.js"></script>
     <script src="./js/app/intelligence.js"></script>
     <script src="./js/app/render.js"></script>
 
-    <!-- App connector -->
-    <script src="./js/app.js"></script>
+    <!-- ========================= -->
+    <!-- Bootstrap -->
+    <!-- ========================= -->
 
-    <!-- App init must load last -->
+    <script src="./js/app.js"></script>
     <script src="./js/app/init.js"></script>
+
+</body>
 
 </html>
